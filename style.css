@@ -1,0 +1,99 @@
+@import url('https://font.googleapis.com/ccs2?family=Raleway:ital@1&display=swap');
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+       display: inline;
+}
+.main-nav li{
+    padding: 0.5%;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images\ \(1\).jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
+.band-name-large{
+    font-size: 8em;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    
+}
+.btn-header{
+    margin: .5em 37% .5em 37%;
+    color: rgb(27, 11, 11);
+    border: 1px solid #17232b;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 4em;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: raleway;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em;
+}
+p{
+    font-family: raleway;
+    font-size: 1.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    text-align: center;
+}
