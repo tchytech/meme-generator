@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>meme generator</title>
+    </head>
+    <body>
+        <p>
+            <textarea id="top-text"></textarea>
+            Textsize: <input id="top-text-size-input" type="range" min="0.05" max="0.25" value="0.15" step="0.01">
+        </p>
+        <p>
+            <textarea id="bottom-text"></textarea>
+            Textsize: <input id="bottom-text-size-input" type="range" min="0.05" max="0.25" value="0.15" step="0.01">
+        </p>
+        <p>
+            <input type="file" id="image-input" accept="image/">
+        </p>
+        <p>
+            <button id="generate-btn">generate</button>
+        </p>
+        <p>
+            <canvas id="meme-canvas"></canvas>
+        </p>
+    </body>
+</html>
